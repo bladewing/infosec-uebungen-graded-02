@@ -35,7 +35,7 @@ function createServer (port, serverDirname) {
   // parse application/json
   router.use(bodyParser.json())
 
-  app.listen(port, '127.0.0.1')
+  app.listen(port, '0.0.0.0')
 
   return { app, router }
 }
