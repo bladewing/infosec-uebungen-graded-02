@@ -2,49 +2,49 @@
 
 N/A
 
-# 1. A Truly Disruptive Startup (3 points)
+# 1. A Truly Disruptive Startup (5 points)
 
 ```
 TODO: Replace this with your attack input.
 ```
 
-# 2. No Script Allowed (3 points)
+# 2. No Script Allowed (5 points)
 
 ```
 TODO: Replace this with your attack input.
 ```
 
-# 3. One More Time, Like You Mean It (3 points)
+# 3. One More Time, Like You Mean It (5 points)
 
 ```
 TODO: Replace this with your attack input.
 ```
 
-# 4. An Open-and-Shut Case (3 points)
+# 4. An Open-and-Shut Case (5 points)
 
 ```
 TODO: Replace this with your attack input.
 ```
 
-# 5. Time to Mix Things Up (3 points)
+# 5. Time to Mix Things Up (5 points)
 
 ```
 TODO: Replace this with your attack input.
 ```
 
-# 6. A Picture is Worth a Thousand Words (3 points)
+# 6. A Picture is Worth a Thousand Words (5 points)
 
 ```
 TODO: Replace this with your attack input.
 ```
 
-# 7. Between a Rock And a Hard Place (3 points)
+# 7. Between a Rock And a Hard Place (5 points)
 
 ```
 TODO: Replace this with your attack input.
 ```
 
-# 8. Angle of Death (6 points)
+# 8. Angle of Death (9 points)
 
 Attack input:
 
@@ -71,13 +71,13 @@ router.get('/search', async (req, res) => {
 
 N/A
 
-# 10. In the Wrong Place at the Wrong Time (3 points)
+# 10. In the Wrong Place at the Wrong Time (5 points)
 
 ```
 TODO: Replace this with your attack input.
 ```
 
-# 11. You Can't Win 'em All (6 points)
+# 11. You Can't Win 'em All (9 points)
 
 Attack input:
 
@@ -100,7 +100,7 @@ router.get('/search', async (req, res) => {
 })
 ```
 
-# 12. When All is Said and Done (6 points)
+# 12. When All is Said and Done (9 points)
 
 Attack input:
 
@@ -127,7 +127,7 @@ router.get('/search', async (req, res) => {
 
 N/A
 
-# 14. Here Today and Gone Tomorrow (3 points)
+# 14. Here Today and Gone Tomorrow (6 points)
 
 Attack URL:
 
@@ -135,19 +135,19 @@ Attack URL:
 TODO: Replace this with your solution. **This should be a URL!**
 ```
 
-# 15. The Early Bird Catches the Worm (3 points)
+# 15. The Early Bird Catches the Worm (6 points)
 
 ```
 TODO: Replace this with your attack input.
 ```
 
-# 16. Tying Up Loose Ends (3 points)
+# 16. Tying Up Loose Ends (6 points)
 
 ```
 TODO: Replace this with your attack input.
 ```
 
-# 17. Take a Page Out of Their Book (6 points)
+# 17. Take a Page Out of Their Book (5 points)
 
 Attack code:
 
@@ -159,6 +159,3 @@ Attack code:
 
 N/A
 
-# Survey responses (3 points)
-
-Write your survey responses in SURVEY.md!

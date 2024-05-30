@@ -1,15 +1,17 @@
-# Assignment 1 Survey Questions (3 points)
+# Aufgabe 1 Umfrage
 
-## Roughly how long did you spend on this assignment?
+## Wie viel Zeit haben Sie ungefähr für diese Aufgabe aufgewendet?
 
-TODO: Replace this with your response
+TODO: Ersetzen Sie dies durch Ihre Antwort
 
-## What was your favorite part of this assignment and why?
+## Was hat Ihnen an dieser Aufgabe am besten gefallen und warum?
 
-TODO: Replace this with your response
+TODO: Ersetzen Sie dies durch Ihre Antwort
 
-## What was your least favorite part of this assignment and why?
+## Was hat Ihnen an dieser Aufgabe am wenigsten gefallen und warum?
 
-TODO: Replace this with your response
+TODO: Ersetzen Sie dies durch Ihre Antwort
 
-## Any other feedback for this assignment? (optional)
+## Haben Sie sonst noch Anmerkungen zu dieser Aufgabe? (optional)
+
+TODO: Ersetzen Sie dies durch Ihre Antwort
