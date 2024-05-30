@@ -4,7 +4,7 @@ Fortunately, your competitor just deployed a new version of their site that incl
 
 The feature is called "Competitor Comparison" and it includes links to competitor search engines so that users can compare search results and decide which search engine is best. Clearly, they feel pretty confident that their results are the best.
 
-They appear to be using the foolproof `htmlElementEscape()` function written for them by the Stanford CS 253 student to generate the HTML for these links so you think they're guaranteed to be safe:
+They appear to be using the foolproof `htmlElementEscape()` function written for them by the HTWD student to generate the HTML for these links so you think they're guaranteed to be safe:
 
 ```js
 router.get('/search', async (req, res) => {
@@ -28,6 +28,6 @@ Find the XSS vulnerability in the search input field. You can use any HTML you w
 
 Try submitting various inputs and then look at the HTML source of the `<iframe>` to figure out how the "sanitized" user input interacts with the context of the HTML source.
 
-<iframe src='http://caloogle.xyz:4100'></iframe>
+<iframe src='http://hackme.ifflaender-family.de:4100'></iframe>
 
 Before you move on to the next exercise, remember to copy your "attack input" into the `SOLUTIONS.md` file.

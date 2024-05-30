@@ -20,7 +20,7 @@ router.get('/search', async (req, res) => {
 
 Can you think of a way to defeat their improved sanitization code and get your `<script>` tag into the page using the search input field?
 
-<iframe src='http://caloogle.xyz:4050'></iframe>
+<iframe src='http://hackme.ifflaender-family.de:4050'></iframe>
 
 Before you move on to the next exercise, remember to copy your "attack input" into the `SOLUTIONS.md` file.
 

@@ -30,9 +30,6 @@
 
   { "heading": true, "name": "Cross Site Scripting into Event Handlers" },
 
-  { "id": 17, "name": "Take a Page Out of Their Book" },
+  { "id": 17, "name": "Take a Page Out of Their Book" }
 
-  { "heading": true, "name": "Congrats" },
-
-  { "id": 18, "server": false, "name": "A Penny For Your Thoughts" }
 ]

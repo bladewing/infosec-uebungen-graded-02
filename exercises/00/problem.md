@@ -6,7 +6,7 @@ If you're reading this, then you were able to get everything set up. Nice work! 
 
 You are currently running a local HTTP server that's serving this workshop website to you. Look up at the URL bar of your browser. You can see the hostname (<script>document.write(window.location.hostname)</script>) and port (<script>document.write(window.location.port)</script>) of the local server.
 
-In addition to this workshop HTTP server, we've also running many other local HTTP servers which are vulnerable to attack in various ways. Most of the exercises you will complete involve attacking or defending these vulnerable local servers. For security, these local HTTP servers are only listening on the local interface (`127.0.0.1`) and should not be accessible to other users on your local network. This means that folks connected to e.g. the same cafe Wi-Fi as you cannot connect to `http://<your-local-ip-address>:<port>` and try to attack these vulnerable local servers.
+In addition to this workshop HTTP server, we've also running many other local HTTP servers which are vulnerable to attack in various ways. Most of the exercises you will complete involve attacking or defending these vulnerable local servers. For security, these local HTTP servers are only listening on the local interface (`hackme.ifflaender-family.de`) and should not be accessible to other users on your local network. This means that folks connected to e.g. the same cafe Wi-Fi as you cannot connect to `http://<your-local-ip-address>:<port>` and try to attack these vulnerable local servers.
 
 ## What is your goal?
 

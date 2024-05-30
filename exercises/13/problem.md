@@ -1,4 +1,4 @@
-Fed up with the lackluster results defending against your attacks, your competitor hires a Stanford student who has completed [CS 253: Web Security](https://cs253.stanford.edu) again. Later, you'll have to have a talk with these students about working for your enemies.
+Fed up with the lackluster results defending against your attacks, your competitor hires an HTWD student who has completed Informationssicherheit und Datenschutz again. Later, you'll have to have a talk with these students about working for your enemies.
 
 In the meantime, your competitors is able to implement a foolproof `htmlAttributeEscape()` function which defeats you for now... 😔
 
