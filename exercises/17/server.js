@@ -51,5 +51,9 @@ router.post('/comment', async (req, res) => {
   // store the comment in a crappy in-memory "database"
   comments.push(comment)
 
+  if (comments.length > 10) {
+    comments = comments.slice(comments.length - 10)
+  }
+
   res.send({ error: null, comment })
 })
