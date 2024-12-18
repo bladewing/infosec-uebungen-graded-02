@@ -20,6 +20,7 @@
     "got": "^9.6.0",
     "minimist": "^1.2.0",
     "open": "^6.4.0",
+    "pm2": "^5.4.3",
     "remark": "^11.0.1",
     "remark-external-links": "^5.0.0",
     "remark-highlight.js": "^5.1.1",

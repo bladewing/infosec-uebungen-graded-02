@@ -1,8 +1,8 @@
-Your competitor is on to you! They've figured out what you're up to and they put their best engineering "rockstar" on the case.
+Dein Konkurrent ist dir auf die Schliche gekommen! Sie haben herausgefunden, was du vorhast, und ihren besten Engineering-"Rockstar" auf den Fall angesetzt.
 
-Fortunately for you, their best engineer isn't very good.
+Zum Glück für dich ist ihr bester Ingenieur nicht sehr gut.
 
-They attempt to sanitize the search query with a call to [`String.prototype.replace`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace). This is the final code they deploy to production:
+Sie versuchen, die Suchanfrage mit einem Aufruf von [`String.prototype.replace`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) zu bereinigen. Dies ist der endgültige Code, den sie in die Produktion einführen:
 
 ```js
 router.get('/search', async (req, res) => {
@@ -16,14 +16,14 @@ router.get('/search', async (req, res) => {
 })
 ```
 
-## Goal
+## Ziel
 
-You should be able to make a small change to your "attack input" from the last exercise and your Reflected XSS attack should continue to work against their users. Unleash more `<script>` pwnage!
+Du solltest in der Lage sein, eine kleine Änderung an deinem "Angriffs-Input" aus der letzten Übung vorzunehmen, und dein Reflected XSS-Angriff sollte weiterhin gegen ihre Benutzer funktionieren. Entfessle mehr `<script>`-Schaden!
 
 <iframe src='http://hackme.ifflaender-family.de:4020'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" (the malicious input string, not the URL) into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deinen "Angriffs-Input" (die bösartige Eingabezeichenfolge, nicht die URL) in die Datei `SOLUTIONS.md` zu kopieren.
 
-## Note
+## Hinweis
 
-Your solution must involve a `<script>` tag.
+Deine Lösung muss ein `<script>`-Tag enthalten.

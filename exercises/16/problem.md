@@ -1,13 +1,13 @@
-Your competitor holds yet another emergency meeting to plan their response to your last hack. At this point, they should just make their emergency meeting into a regularly scheduled meeting.
+Dein Konkurrent hält erneut eine Notfallsitzung ab, um seine Antwort auf deinen letzten Hack zu planen. An diesem Punkt sollten sie ihre Notfallsitzung einfach in eine regelmäßig geplante Sitzung umwandeln.
 
-They realize their folly and decide to prevent you from breaking out of the script context by removing the sequence of characters that you must use in order to do that. Namely, `</`. They use a regular expression to do this, but, as usual, there's a bug in it.
+Sie erkennen ihren Fehler und beschließen, dich daran zu hindern, aus dem Skriptkontext auszubrechen, indem sie die Zeichenfolge entfernen, die du dafür verwenden musst. Nämlich `</`. Sie verwenden dazu einen regulären Ausdruck, aber wie üblich gibt es einen Fehler darin.
 
-But you know that since you've [hacked the Gibson](https://www.youtube.com/watch?v=vYNnPx8fZBs) before, their puny defenses will be no match for your skillz!!!!11
+Aber du weißt, dass ihre schwachen Verteidigungen keine Chance gegen deine Fähigkeiten haben werden, da du schon einmal [den Gibson gehackt](https://www.youtube.com/watch?v=vYNnPx8fZBs) hast!!!!11
 
-## Goal
+## Ziel
 
-Find the XSS vulnerability in the search input field. You can use any HTML tag to run the `success()` function.
+Finde die XSS-Schwachstelle im Suchfeld. Du kannst jedes HTML-Tag verwenden, um die `success()`-Funktion auszuführen.
 
 <iframe src='http://hackme.ifflaender-family.de:4160'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" in die `SOLUTIONS.md`-Datei zu kopieren.

@@ -1,27 +1,27 @@
-You're the founder of an innovative [world-changing startup](https://tiffzhang.com/startup/)! It has something to do with blockchain in the cloud. It's like Uber, but for cats. Or, maybe it's like Airbnb, but for gamification. It's social, mobile, and local. The tech press says that it's disruptive and revolutionary. Really, it has everything that a user could want. But you're still iterating in stealth mode using the Lean Startup™️ method until you find product-market fit and become a unicorn! 🦄
+Du bist der Gründer eines innovativen [weltverändernden Startups](https://tiffzhang.com/startup/)! Es hat etwas mit Blockchain in der Cloud zu tun. Es ist wie Uber, aber für Katzen. Oder vielleicht ist es wie Airbnb, aber für Gamification. Es ist sozial, mobil und lokal. Die Tech-Presse sagt, dass es disruptiv und revolutionär ist. Wirklich, es hat alles, was ein Benutzer wollen könnte. Aber du iterierst immer noch im Stealth-Modus mit der Lean Startup™️-Methode, bis du das Produkt-Markt-Fit findest und ein Einhorn wirst! 🦄
 
-But... one day, out of nowhere, disaster strikes! You see that your biggest competitor has released a product that is just like what you've been building. But they beat you to market!
+Aber... eines Tages, aus dem Nichts, schlägt das Unglück zu! Du siehst, dass dein größter Konkurrent ein Produkt veröffentlicht hat, das genau wie das ist, was du gebaut hast. Aber sie waren schneller auf dem Markt!
 
-You suspect that they might have cut some corners when it comes to security in order to release their product so quickly. Not a good idea. You decide to put the "hacker" into "growth hacker" and teach them a lesson about taking web security seriously.
+Du vermutest, dass sie möglicherweise einige Ecken bei der Sicherheit geschnitten haben, um ihr Produkt so schnell zu veröffentlichen. Keine gute Idee. Du entscheidest dich, den "Hacker" in "Growth Hacker" zu stecken und ihnen eine Lektion darüber zu erteilen, Web-Sicherheit ernst zu nehmen.
 
-Perhaps if your competitor sees their users getting attacked in the wild, you can convince them to unlaunch their site. This would give your team the much-needed time they need to launch your superior product! 😈
+Vielleicht kannst du deinen Konkurrenten überzeugen, ihre Website zurückzuziehen, wenn sie sehen, dass ihre Benutzer in freier Wildbahn angegriffen werden. Dies würde deinem Team die dringend benötigte Zeit geben, um dein überlegenes Produkt zu starten! 😈
 
-You decide to check out their website and look for a Reflected XSS vulnerability.
+Du entscheidest dich, ihre Website zu überprüfen und nach einer Reflected XSS-Schwachstelle zu suchen.
 
-## Goal
+## Ziel
 
-Find a way to inject a `<script>` tag into your competitor's site. Once you find a way to execute code on their site, you should call the `success()` function. If you've done it correctly, you should see a browser alert telling you that you succeeded.
+Finde einen Weg, ein `<script>`-Tag in die Website deines Konkurrenten einzufügen. Sobald du einen Weg gefunden hast, Code auf ihrer Website auszuführen, solltest du die `success()`-Funktion aufrufen. Wenn du es richtig gemacht hast, solltest du eine Browser-Benachrichtigung sehen, die dir sagt, dass du erfolgreich warst.
 
 <iframe src='http://hackme.ifflaender-family.de:4010'></iframe>
 
-Since this is a Reflected XSS attack, take note of the fact that the URL of the victim site contains a URL-encoded version of your "attack input".
+Da dies ein Reflected XSS-Angriff ist, beachte, dass die URL der Opferseite eine URL-codierte Version deiner "Angriffseingabe" enthält.
 
-If you were truly evil, you could share that URL on social media and when innocent users click the link, your attack code should execute in their browsers, wreaking havoc. You could exfiltrate their cookies and log in as them, or take actions on their account, including deleting it. Your competitor will have trouble raising their next round from investors when their user numbers start going down and to the right! 🤣📉🤣  Noobs!
+Wenn du wirklich böse wärst, könntest du diese URL in sozialen Medien teilen und wenn unschuldige Benutzer auf den Link klicken, sollte dein Angriffscode in ihren Browsern ausgeführt werden und Chaos anrichten. Du könntest ihre Cookies exfiltrieren und dich als sie einloggen oder Aktionen auf ihrem Konto ausführen, einschließlich des Löschens. Dein Konkurrent wird Schwierigkeiten haben, seine nächste Finanzierungsrunde von Investoren zu bekommen, wenn ihre Benutzerzahlen sinken! 🤣📉🤣 Anfänger!
 
-You should try copying this URL and opening it into a new tab and confirm that your attack code runs immediately when the page is loaded. This is the power of Reflected XSS!
+Du solltest versuchen, diese URL zu kopieren und in einem neuen Tab zu öffnen und bestätigen, dass dein Angriffscode sofort ausgeführt wird, wenn die Seite geladen wird. Dies ist die Macht von Reflected XSS!
 
-Before you move on to the next exercise, remember to copy your "attack input" (the malicious input string, not the URL) into the `SOLUTIONS.md` file so you can submit it and get credit.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" (die bösartige Eingabezeichenfolge, nicht die URL) in die Datei `SOLUTIONS.md` zu kopieren, damit du sie einreichen und Kredit erhalten kannst.
 
-## Note
+## Hinweis
 
-Your solution must involve a `<script>` tag.
+Deine Lösung muss ein `<script>`-Tag beinhalten.

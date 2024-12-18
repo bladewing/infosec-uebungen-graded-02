@@ -1,10 +1,10 @@
-Your competitor's `htmlElementEscape()` function is working quite well and you haven't been able to attack their users in the wild ever since they deployed it. It's a lot harder to disrupt the status quo like world-changing startup when you can't XSS your competitors. Now, you're beginning to worry that you might not be able to get that next round of funding. This is a huge bummer.
+Die `htmlElementEscape()`-Funktion deines Konkurrenten funktioniert ziemlich gut und du konntest ihre Benutzer nicht mehr angreifen, seit sie diese Funktion implementiert haben. Es ist viel schwieriger, den Status quo wie ein weltveränderndes Startup zu disruptieren, wenn du deine Konkurrenten nicht mit XSS angreifen kannst. Jetzt machst du dir Sorgen, dass du die nächste Finanzierungsrunde nicht bekommen könntest. Das ist ein großer Dämpfer.
 
-Fortunately, your competitor just deployed a new version of their site that includes a brand new feature. Perhaps there's a new XSS vulnerability in it?
+Glücklicherweise hat dein Konkurrent gerade eine neue Version seiner Website veröffentlicht, die eine brandneue Funktion enthält. Vielleicht gibt es darin eine neue XSS-Schwachstelle?
 
-The feature is called "Competitor Comparison" and it includes links to competitor search engines so that users can compare search results and decide which search engine is best. Clearly, they feel pretty confident that their results are the best.
+Die Funktion heißt "Konkurrentenvergleich" und enthält Links zu Suchmaschinen von Konkurrenten, damit Benutzer Suchergebnisse vergleichen und entscheiden können, welche Suchmaschine die beste ist. Offensichtlich sind sie ziemlich zuversichtlich, dass ihre Ergebnisse die besten sind.
 
-They appear to be using the foolproof `htmlElementEscape()` function written for them by the HTWD student to generate the HTML for these links so you think they're guaranteed to be safe:
+Sie scheinen die narrensichere `htmlElementEscape()`-Funktion zu verwenden, die von einem HTWD-Studenten für sie geschrieben wurde, um das HTML für diese Links zu generieren, sodass du denkst, dass sie garantiert sicher sind:
 
 ```js
 router.get('/search', async (req, res) => {
@@ -18,16 +18,16 @@ router.get('/search', async (req, res) => {
 })
 ```
 
-But upon closer inspection, it appears that they're not using the function correctly. Time to teach them another lesson!
+Aber bei näherer Betrachtung scheint es, dass sie die Funktion nicht richtig verwenden. Zeit, ihnen eine weitere Lektion zu erteilen!
 
-## Goal
+## Ziel
 
-Find the XSS vulnerability in the search input field. You can use any HTML you want to run the `success()` function.
+Finde die XSS-Schwachstelle im Suchfeld. Du kannst beliebiges HTML verwenden, um die `success()`-Funktion auszuführen.
 
-## Tip
+## Tipp
 
-Try submitting various inputs and then look at the HTML source of the `<iframe>` to figure out how the "sanitized" user input interacts with the context of the HTML source.
+Versuche, verschiedene Eingaben zu übermitteln und dann den HTML-Quellcode des `<iframe>` zu betrachten, um herauszufinden, wie die "bereinigte" Benutzereingabe mit dem Kontext des HTML-Quellcodes interagiert.
 
 <iframe src='http://hackme.ifflaender-family.de:4100'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" in die `SOLUTIONS.md`-Datei zu kopieren.

@@ -1,17 +1,17 @@
-Struck by a very similar bug ...yet again!
+Schon wieder von einem sehr ähnlichen Fehler betroffen!
 
-Your competitor hasn't learned that writing tests for their code to ensure it actually works is an important security practice. Untested code is broken code. One day they'll learn.
+Dein Konkurrent hat noch nicht gelernt, dass das Schreiben von Tests für ihren Code, um sicherzustellen, dass er tatsächlich funktioniert, eine wichtige Sicherheitsmaßnahme ist. Ungetesteter Code ist fehlerhafter Code. Eines Tages werden sie es lernen.
 
-In the meantime, they deploy a fresh fix and cross their fingers that you'll run out of ideas. But they didn't take into account how relentless you are. Taking down your competitors is priority #1 for you. You won't sleep until your startup is a unicorn. #Hustle #Grinding
+In der Zwischenzeit setzen sie eine neue Lösung ein und hoffen, dass dir die Ideen ausgehen. Aber sie haben nicht bedacht, wie unermüdlich du bist. Deine Konkurrenten auszuschalten, hat für dich oberste Priorität. Du wirst nicht schlafen, bis dein Startup ein Einhorn ist. #Hustle #Grinding
 
-After all, your personal motto has always been "No risk, no rari!"
+Schließlich war dein persönliches Motto schon immer "Kein Risiko, kein Rari!"
 
-## Goals
+## Ziele
 
-1. Find the XSS vulnerability in the search input field. You can use any HTML you want to run the `success()` function.
+1. Finde die XSS-Schwachstelle im Suchfeld. Du kannst beliebiges HTML verwenden, um die `success()`-Funktion auszuführen.
 
-1. Write out the code that you believe the server must be executing to process the input.
+1. Schreibe den Code auf, von dem du glaubst, dass der Server ihn zur Verarbeitung der Eingabe ausführt.
 
 <iframe src='http://hackme.ifflaender-family.de:4120'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" as well as your server code into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, dein "Angriffseingabe" sowie deinen Servercode in die `SOLUTIONS.md`-Datei zu kopieren.

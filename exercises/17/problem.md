@@ -1,12 +1,12 @@
-Your competitor decides to add a guestbook to their website.
+Dein Konkurrent hat sich entschieden, ein Gästebuch auf seiner Website hinzuzufügen.
 
-Guestbooks were all the rage on websites built in the late 90s and early 00s. In case you're not familiar with the concept, here's a definition:
+Gästebücher waren auf Websites, die in den späten 90er und frühen 00er Jahren gebaut wurden, sehr beliebt. Falls du mit dem Konzept nicht vertraut bist, hier ist eine Definition:
 
-> On the web, a guestbook is a logging system that allows visitors of a website to leave a public comment. It is possible in some guestbooks for visitors to express their thoughts about the website or its subject. Generally, they do not require the poster to create a user account, as it is an informal method of dropping off a quick message. The purpose of a website guestbook is to display the kind of visitors the site gets, including the part of the world they reside in, and gain feedback from them. This allows the webmaster to assess and improve their site. A guestbook is generally a script, which is usually remotely hosted... – [Wikipedia](https://en.wikipedia.org/wiki/Guestbook)
+> Im Web ist ein Gästebuch ein Protokollsystem, das es Besuchern einer Website ermöglicht, einen öffentlichen Kommentar zu hinterlassen. In einigen Gästebüchern ist es möglich, dass Besucher ihre Gedanken über die Website oder ihr Thema äußern. Im Allgemeinen erfordert es nicht, dass der Verfasser ein Benutzerkonto erstellt, da es eine informelle Methode ist, eine kurze Nachricht zu hinterlassen. Der Zweck eines Website-Gästebuchs besteht darin, die Art der Besucher anzuzeigen, die die Seite erhält, einschließlich des Teils der Welt, in dem sie sich befinden, und Feedback von ihnen zu erhalten. Dies ermöglicht es dem Webmaster, seine Seite zu bewerten und zu verbessern. Ein Gästebuch ist im Allgemeinen ein Skript, das normalerweise extern gehostet wird... – [Wikipedia](https://de.wikipedia.org/wiki/Gästebuch)
 
-Upon checking it out, you notice that they're storing comments on the server-side so that later visitors to the guestbook can see comments left by earlier posters. You realize that this could be a perfect opportunity to try a Stored XSS attack!
+Als du es dir ansiehst, bemerkst du, dass sie Kommentare serverseitig speichern, sodass spätere Besucher des Gästebuchs die Kommentare früherer Poster sehen können. Du erkennst, dass dies eine perfekte Gelegenheit für einen Stored XSS-Angriff sein könnte!
 
-Your competitor is using an open source Guestbook package, and you were able to figure out which one and which version through some sluething. You download the code to see what you're up against:
+Dein Konkurrent verwendet ein Open-Source-Gästebuch-Paket, und du konntest durch etwas Nachforschung herausfinden, welches und welche Version. Du lädst den Code herunter, um zu sehen, womit du es zu tun hast:
 
 ```js
 router.get('/', async (req, res) => {
@@ -29,24 +29,24 @@ router.post('/comment', async (req, res) => {
 })
 ```
 
-If you can pull off a Stored XSS attack, then all future visitors to their Guestbook will execute your attack code! Unlike the Reflected XSS attacks you've been doing so far, this one doesn't require the victim to visit your specially-crafted attack URL to be exploited. They victim merely needs to visit the guestbook and your attack code will run.
+Wenn du einen Stored XSS-Angriff durchführen kannst, werden alle zukünftigen Besucher ihres Gästebuchs deinen Angriffscode ausführen! Im Gegensatz zu den Reflected XSS-Angriffen, die du bisher durchgeführt hast, erfordert dieser nicht, dass das Opfer deine speziell gestaltete Angriffs-URL besucht, um ausgenutzt zu werden. Das Opfer muss lediglich das Gästebuch besuchen, und dein Angriffscode wird ausgeführt.
 
-Time to show your competitor the power of Stored XSS!
+Zeit, deinem Konkurrenten die Macht von Stored XSS zu zeigen!
 
-## Goals
+## Ziele
 
-1. Find the XSS vulnerability in their code. You can use any HTML that you want.
+1. Finde die XSS-Schwachstelle in ihrem Code. Du kannst beliebiges HTML verwenden.
 
-1. Your solution should be a code snippet that, when pasted into the browser DevTools, will add a comment to the server's database
+1. Deine Lösung sollte ein Code-Snippet sein, das, wenn es in die DevTools des Browsers eingefügt wird, einen Kommentar in der Datenbank des Servers hinzufügt.
 
-## Tips
+## Tipps
 
-- The general concept of Stored XSS is the same as Reflected XSS. So all your prior practice should come in handy here!
+- Das allgemeine Konzept von Stored XSS ist dasselbe wie bei Reflected XSS. Deine bisherigen Übungen sollten dir hier also nützlich sein!
 
-- You should use the [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) API to make a HTTP request that stores your XSS payload in the server's data store.
+- Du solltest die [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) API verwenden, um eine HTTP-Anfrage zu erstellen, die dein XSS-Payload im Datenspeicher des Servers speichert.
 
-- It's okay if your attack code doesn't run immeditately when the page loads. It is acceptable for it to run later, in response to the user interacting with the page.
+- Es ist in Ordnung, wenn dein Angriffscode nicht sofort beim Laden der Seite ausgeführt wird. Es ist akzeptabel, wenn er später als Reaktion auf die Interaktion des Benutzers mit der Seite ausgeführt wird.
 
 <iframe src='http://hackme.ifflaender-family.de:4170'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack code" into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deinen "Angriffscode" in die Datei `SOLUTIONS.md` zu kopieren.

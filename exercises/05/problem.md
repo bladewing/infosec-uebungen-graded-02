@@ -1,4 +1,4 @@
-They're on to you! They saw your last attack in their server logs and have updated their input sanitization code once again.
+Sie sind dir auf die Schliche gekommen! Sie haben deinen letzten Angriff in ihren Serverprotokollen gesehen und ihren Code zur Eingabesäuberung erneut aktualisiert.
 
 ```js
 router.get('/search', async (req, res) => {
@@ -16,14 +16,14 @@ router.get('/search', async (req, res) => {
 })
 ```
 
-## Goal
+## Ziel
 
-Can you think of a way to defeat their improved sanitization code and get your `<script>` tag into the page using the search input field?
+Kannst du dir eine Möglichkeit überlegen, ihren verbesserten Säuberungscode zu umgehen und dein `<script>`-Tag über das Suchfeld in die Seite einzufügen?
 
 <iframe src='http://hackme.ifflaender-family.de:4050'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" in die Datei `SOLUTIONS.md` zu kopieren.
 
-## Note
+## Hinweis
 
-Your solution must involve a `<script>` tag.
+Deine Lösung muss ein `<script>`-Tag enthalten.

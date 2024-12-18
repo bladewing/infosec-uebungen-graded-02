@@ -1,6 +1,6 @@
-Your competitor realizes that you've found a way around their hotfix. They quickly jump into action and make another change to defend against your last attack.
+Dein Konkurrent merkt, dass du einen Weg gefunden hast, ihren Hotfix zu umgehen. Sie reagieren schnell und machen eine weitere Änderung, um sich gegen deinen letzten Angriff zu verteidigen.
 
-They don't have good engineering practices, so they deploy their fix straight to production without a code review. You should teach them a lesson that they won't soon forget. Hack them so thoroughly that they're sent back to pre-seed stage!
+Sie haben keine guten Ingenieurpraktiken, also setzen sie ihren Fix direkt in die Produktion ein, ohne eine Code-Überprüfung. Du solltest ihnen eine Lektion erteilen, die sie nicht so schnell vergessen werden. Hacke sie so gründlich, dass sie in die Vorgründungsphase zurückversetzt werden!
 
 ```js
 router.get('/search', async (req, res) => {
@@ -14,14 +14,14 @@ router.get('/search', async (req, res) => {
 })
 ```
 
-## Goal
+## Ziel
 
-Can you think of a way to defeat their improved sanitization code and get your `<script>` tag into the page using the search input field?
+Kannst du dir eine Möglichkeit überlegen, ihren verbesserten Bereinigungscode zu umgehen und dein `<script>`-Tag über das Suchfeld in die Seite einzufügen?
 
 <iframe src='http://hackme.ifflaender-family.de:4030'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" (the malicious input string, not the URL) into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deinen "Angriffseingang" (die bösartige Eingabezeichenfolge, nicht die URL) in die `SOLUTIONS.md`-Datei zu kopieren.
 
-## Note
+## Hinweis
 
-Your solution must involve a `<script>` tag.
+Deine Lösung muss ein `<script>`-Tag enthalten.

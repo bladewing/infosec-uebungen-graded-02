@@ -1,29 +1,29 @@
-Fed up with the lackluster results defending against your attacks, your competitor hires an HTWD student who has completed Informationssicherheit und Datenschutz again. Later, you'll have to have a talk with these students about working for your enemies.
+Genervt von den enttäuschenden Ergebnissen bei der Abwehr deiner Angriffe, stellt dein Konkurrent einen HTWD-Studenten ein, der Informationssicherheit und Datenschutz abgeschlossen hat. Später musst du mit diesen Studenten darüber sprechen, für deine Feinde zu arbeiten.
 
-In the meantime, your competitors is able to implement a foolproof `htmlAttributeEscape()` function which defeats you for now... 😔
+In der Zwischenzeit ist dein Konkurrent in der Lage, eine narrensichere `htmlAttributeEscape()`-Funktion zu implementieren, die dich vorerst besiegt... 😔
 
-Please read the code for `htmlAttributeEscape()` and ensure you understand how it works in detail.
+Bitte lies den Code für `htmlAttributeEscape()` und stelle sicher, dass du im Detail verstehst, wie er funktioniert.
 
 ```js
 function htmlAttributeEscape (str) {
   return str
-    // This is not for security, but because '&' is the HTML escape character
-    // and we don't want the user's input to be treated as an escape sequence.
+    // Dies ist nicht für die Sicherheit, sondern weil '&' das HTML-Escape-Zeichen ist
+    // und wir nicht wollen, dass die Benutzereingabe als Escape-Sequenz behandelt wird.
     .replace(/&/g, '&amp;')
 
-    // Without the single quote character, the attacker cannot escape from
-    // inside a single-quoted HTML attribute.
+    // Ohne das einfache Anführungszeichen kann der Angreifer nicht aus
+    // einem einfach-quotierten HTML-Attribut entkommen.
     .replace(/'/g, '&apos;')
 
-    // Without the double quote character, the attacker cannot escape from
-    // inside a double-quoted HTML attribute.
+    // Ohne das doppelte Anführungszeichen kann der Angreifer nicht aus
+    // einem doppelt-quotierten HTML-Attribut entkommen.
     .replace(/"/g, '&quot;')
 }
 ```
 
-Now all your competitor needs to do is call this function whenever they put untrusted data directly into HTML attributes i.e. `<div class='UNTRUSED INPUT HERE'>`.
+Jetzt muss dein Konkurrent nur noch diese Funktion aufrufen, wann immer er unzuverlässige Daten direkt in HTML-Attribute einfügt, z.B. `<div class='UNTRUSTED INPUT HERE'>`.
 
-So, their updated route handler code looks like this now:
+Ihr aktualisierter Routen-Handler-Code sieht jetzt so aus:
 
 ```js
 router.get('/search', async (req, res) => {
@@ -37,6 +37,6 @@ router.get('/search', async (req, res) => {
 })
 ```
 
-It seems like we're out of luck for now...
+Es scheint, als hätten wir vorerst kein Glück...
 
-<a href='#' onclick="window.postMessage('success', '*')">Click this link to call success()</a> and complete this exercise.
+<a href='#' onclick="window.postMessage('success', '*')">Klicke auf diesen Link, um success() aufzurufen</a> und diese Übung abzuschließen.

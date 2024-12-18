@@ -1,6 +1,6 @@
-The consultant is cleverer than you expected and was watching the server logs right when you did the last attack. They spotted your handiwork and were able to react quickly with a fix.
+Der Berater ist cleverer als du erwartet hast und hat die Server-Logs genau beobachtet, als du den letzten Angriff durchgeführt hast. Sie haben deine Arbeit entdeckt und konnten schnell mit einem Fix reagieren.
 
-You know their fix is probably still broken in some way, though. You dive into the code to search for the mistake you know must exist. 😆
+Du weißt jedoch, dass ihr Fix wahrscheinlich immer noch in irgendeiner Weise fehlerhaft ist. Du tauchst in den Code ein, um den Fehler zu finden, von dem du weißt, dass er existieren muss. 😆
 
 ```js
 router.get('/search', async (req, res) => {
@@ -18,10 +18,10 @@ router.get('/search', async (req, res) => {
 })
 ```
 
-## Goal
+## Ziel
 
-Find the XSS vulnerability in the search input field. You should **not** use a `<script>` tag in this attack.
+Finde die XSS-Schwachstelle im Suchfeld. Du solltest **keinen** `<script>`-Tag in diesem Angriff verwenden.
 
 <iframe src='http://hackme.ifflaender-family.de:4070'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deinen "Angriffseingang" in die `SOLUTIONS.md`-Datei zu kopieren.

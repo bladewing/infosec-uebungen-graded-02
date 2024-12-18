@@ -1,23 +1,23 @@
-Your competitor realizes their mistake and quickly fixes it. All is well for a while.
+Dein Konkurrent erkennt seinen Fehler und behebt ihn schnell. Alles ist eine Weile in Ordnung.
 
-But soon they have another new feature lanuch. They've added support for the Spanish and German languages to the search page. They're clearly intent on expanding their reach to the international market.
+Aber bald haben sie eine weitere neue Funktion gestartet. Sie haben Unterstützung für die spanische und deutsche Sprache zur Suchseite hinzugefügt. Sie sind eindeutig darauf aus, ihre Reichweite auf den internationalen Markt auszudehnen.
 
-However, a new feature usually means lots of new code. And lots of new code means lots of new potential bugs. You decide to take a closer look at the new language feature they added to see what you can find.
+Eine neue Funktion bedeutet jedoch normalerweise viel neuen Code. Und viel neuer Code bedeutet viele neue potenzielle Fehler. Du entscheidest dich, die neue Sprachfunktion, die sie hinzugefügt haben, genauer unter die Lupe zu nehmen, um zu sehen, was du finden kannst.
 
-On an unrelated note, today you had a brief moment of doubt about continually attacking your competitor's websites. You wondered if it was actually a good idea. But the moment was brief and soon your good sense returns. You put on your black hat, open the DevTools, and [start some hacking](https://www.youtube.com/watch?v=0PxTAn4g20U).
+In einem nicht verwandten Zusammenhang hattest du heute einen kurzen Moment des Zweifels daran, ständig die Websites deines Konkurrenten anzugreifen. Du hast dich gefragt, ob es tatsächlich eine gute Idee ist. Aber der Moment war kurz und bald kehrt dein gesunder Menschenverstand zurück. Du setzt deinen schwarzen Hut auf, öffnest die DevTools und [beginnst zu hacken](https://www.youtube.com/watch?v=0PxTAn4g20U).
 
-## Goal
+## Ziel
 
-Find the XSS vulnerability in their code. Unlike previous exercises, it may not be enough to simply type into the search input. You may need to modify the URL itself.
+Finde die XSS-Schwachstelle in ihrem Code. Anders als bei den vorherigen Übungen reicht es möglicherweise nicht aus, einfach in das Suchfeld zu tippen. Du musst möglicherweise die URL selbst ändern.
 
-Please save the **attack URL** that causes an XSS when the victim visits it.
+Bitte speichere die **Angriffs-URL**, die ein XSS verursacht, wenn das Opfer sie besucht.
 
-## Tip
+## Tipp
 
-If you've found a solution that works, you should be able to paste this **attack URL** into a new tab and see the attack execute.
+Wenn du eine Lösung gefunden hast, die funktioniert, solltest du in der Lage sein, diese **Angriffs-URL** in einem neuen Tab einzufügen und den Angriff auszuführen.
 
-Lesson learned: even if a server would never generate an vulnerable URL and place it into the HTML, that's no guarantee that an attacker won't find this vulnerable URL and entice users to visit it somehow.
+Lektion gelernt: Selbst wenn ein Server niemals eine anfällige URL generieren und in das HTML einfügen würde, ist das keine Garantie dafür, dass ein Angreifer diese anfällige URL nicht findet und Benutzer irgendwie dazu bringt, sie zu besuchen.
 
 <iframe src='http://hackme.ifflaender-family.de:4140'></iframe>
 
-Before you move on to the next exercise, remember to copy your **attack URL** into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deine **Angriffs-URL** in die Datei `SOLUTIONS.md` zu kopieren.

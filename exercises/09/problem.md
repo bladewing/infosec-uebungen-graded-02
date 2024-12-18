@@ -1,22 +1,22 @@
-Your competitor is fed up with the lackluster results from the TU Dresden graduate and decide to hire an HTWD student who has completed Informationssicherheit und Datenschutz instead. They are able to quickly implement a foolproof `htmlElementEscape()` function which defeats your shenanigans once and for all.
+Dein Konkurrent hat genug von den enttäuschenden Ergebnissen des TU Dresden Absolventen und beschließt, stattdessen einen HTWD-Studenten einzustellen, der Informationssicherheit und Datenschutz abgeschlossen hat. Dieser kann schnell eine narrensichere `htmlElementEscape()`-Funktion implementieren, die deine Spielereien ein für alle Mal vereitelt.
 
-Please read the code for `htmlElementEscape()` and ensure you understand how it works in detail.
+Bitte lies den Code für `htmlElementEscape()` und stelle sicher, dass du im Detail verstehst, wie er funktioniert.
 
 ```js
 function htmlElementEscape (str) {
   return str
-    // This is not for security, but because '&' is the HTML escape character
-    // and we don't want the user's input to be treated as an escape sequence.
+    // Dies ist nicht für die Sicherheit, sondern weil '&' das HTML-Escape-Zeichen ist
+    // und wir nicht wollen, dass die Benutzereingabe als Escape-Sequenz behandelt wird.
     .replace(/&/g, '&amp;')
 
-    // Without the '<' character, no HTML tags an be created.
+    // Ohne das Zeichen '<' können keine HTML-Tags erstellt werden.
     .replace(/</g, '&lt;')
 }
 ```
 
-Now all your competitor needs to do is call this function whenever they put untrusted data directly into the HTML body somewhere, i.e. tags like `div`, `p`, `b`, `td`, etc.
+Jetzt muss dein Konkurrent nur noch diese Funktion aufrufen, wann immer er unzuverlässige Daten direkt in den HTML-Body einfügt, also in Tags wie `div`, `p`, `b`, `td`, etc.
 
-So, their updated route handler code looks like this now:
+Ihr aktualisierter Routen-Handler-Code sieht jetzt so aus:
 
 ```js
 router.get('/search', async (req, res) => {
@@ -30,6 +30,6 @@ router.get('/search', async (req, res) => {
 })
 ```
 
-It seems like we're out of luck for now...
+Es scheint, als hätten wir vorerst kein Glück...
 
-<a href='#' onclick="window.postMessage('success', '*')">Click this link to call success()</a> and complete this exercise.
+<a href='#' onclick="window.postMessage('success', '*')">Klicke auf diesen Link, um success() aufzurufen</a> und diese Übung abzuschließen.

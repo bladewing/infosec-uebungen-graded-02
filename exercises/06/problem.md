@@ -1,6 +1,6 @@
-Your competitor can't believe how successful your attacks have been. They are eager to put an end to this cat-and-mouse game. So, they decide to hire a security consultant to help them fix the problem with their approach once-and-for-all.
+Dein Konkurrent kann nicht glauben, wie erfolgreich deine Angriffe waren. Sie sind begierig darauf, diesem Katz-und-Maus-Spiel ein Ende zu setzen. Daher beschließen sie, einen Sicherheitsberater zu engagieren, um das Problem mit ihrem Ansatz ein für alle Mal zu beheben.
 
-You decide to put your [social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security)) skills to work and see what you can learn about their newly-hired consultant. After a quick phone call, you're able to learn one critical fact about the consultant: they graduated from TU Dresden. Your fears are assuaged. With renewed confidence, you take another look at their code to find the inevitable bug you know must exist.
+Du beschließt, Ihre [Social Engineering](https://de.wikipedia.org/wiki/Social_Engineering_(Sicherheit)) Fähigkeiten einzusetzen und zu sehen, was du über ihren neu eingestellten Berater herausfinden können. Nach einem kurzen Telefonat kannst du eine entscheidende Tatsache über den Berater herausfinden: Er hat einen Abschluss der TU Dresden. Deine Ängste sind unbegründet. Mit neuem Selbstvertrauen wirfst du einen weiteren Blick auf ihren Code, um den unvermeidlichen Fehler zu finden, von dem du weißt, dass er existieren muss.
 
 ```js
 router.get('/search', async (req, res) => {
@@ -18,10 +18,10 @@ router.get('/search', async (req, res) => {
 })
 ```
 
-## Goal
+## Ziel
 
-Find the XSS vulnerability in the search input field. You should **not** use a `<script>` tag in this attack.
+Finde die XSS-Schwachstelle im Suchfeld. Verwende **keinen** `<script>`-Tag in diesem Angriff.
 
 <iframe src='http://hackme.ifflaender-family.de:4060'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" into the `SOLUTIONS.md` file.
+Bevor Du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" in die Datei `SOLUTIONS.md` zu kopieren.

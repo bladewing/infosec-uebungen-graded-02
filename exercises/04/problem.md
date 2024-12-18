@@ -1,6 +1,6 @@
-After their last defeat, they're getting really frustrated with your attacks.
+Nach ihrer letzten Niederlage sind sie wirklich frustriert über deine Angriffe.
 
-They decide to just iterate repeatedly until all your hackery is removed from the input. But there's a problem with their approach.
+Sie beschließen, einfach wiederholt zu iterieren, bis all deine Hackereien aus der Eingabe entfernt sind. Aber es gibt ein Problem mit ihrem Ansatz.
 
 ```js
 router.get('/search', async (req, res) => {
@@ -18,14 +18,14 @@ router.get('/search', async (req, res) => {
 })
 ```
 
-## Goal
+## Ziel
 
-Can you think of a way to defeat their improved sanitization code and get your `<script>` tag into the page using the search input field?
+Kannst du dir eine Möglichkeit überlegen, ihren verbesserten Bereinigungscode zu umgehen und dein `<script>`-Tag über das Suchfeld in die Seite einzufügen?
 
 <iframe src='http://hackme.ifflaender-family.de:4040'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" (the malicious input string, not the URL) into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" (die bösartige Eingabezeichenfolge, nicht die URL) in die `SOLUTIONS.md`-Datei zu kopieren.
 
-## Note
+## Hinweis
 
-Your solution must involve a `<script>` tag.
+Deine Lösung muss ein `<script>`-Tag enthalten.

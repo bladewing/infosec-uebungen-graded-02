@@ -1,11 +1,10 @@
-Your competitor is looking to improve their user experience and decides to add some analytics tracking code to their website in a `<script>` tag. They're particularly interested in learning what screen resolutions their users have so they can ensure their site looks good on all the devices that their users may be using.
+Dein Konkurrent möchte die Benutzererfahrung verbessern und entscheidet sich, Analytik-Tracking-Code in einem `<script>`-Tag zu seiner Website hinzuzufügen. Besonders interessiert sind sie daran, die Bildschirmauflösungen ihrer Benutzer zu erfahren, um sicherzustellen, dass ihre Website auf allen Geräten gut aussieht, die ihre Benutzer möglicherweise verwenden.
 
-They decide to also send the user's query along with the screen size, just in case that turns out to be useful later.
-
+Sie entscheiden sich auch dafür, die Suchanfrage des Benutzers zusammen mit der Bildschirmgröße zu senden, falls sich das später als nützlich erweist.
 
 ```html
 <script>
-  let q = 'my cool search'
+  let q = 'meine coole Suche'
   window.sendAnalytics({
     q,
     screenWidth: window.screen && window.screen.width,
@@ -14,18 +13,18 @@ They decide to also send the user's query along with the screen size, just in ca
 </script>
 ```
 
-You suspect that they're using the new foolproof `htmlAttributeEscape()` function to ensure that a user can't "break out" of the quotes in the JavaScript code. After all, the function replaces single quote and double quote characters with their respective HTML entities.
+Du vermutest, dass sie die neue narrensichere Funktion `htmlAttributeEscape()` verwenden, um sicherzustellen, dass ein Benutzer nicht aus den Anführungszeichen im JavaScript-Code "ausbrechen" kann. Schließlich ersetzt die Funktion einfache und doppelte Anführungszeichen durch ihre jeweiligen HTML-Entitäten.
 
-Is that actually enough?
+Ist das wirklich genug?
 
-## Goal
+## Ziel
 
-Find the XSS vulnerability in the search input field. You can use any HTML tag to run the `success()` function.
+Finde die XSS-Schwachstelle im Suchfeld. Du kannst jedes HTML-Tag verwenden, um die Funktion `success()` auszuführen.
 
-## Tip
+## Tipp
 
-You may need to look at the HTML source of the `<iframe>`.
+Möglicherweise musst du den HTML-Quellcode des `<iframe>` ansehen.
 
 <iframe src='http://hackme.ifflaender-family.de:4150'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" in die Datei `SOLUTIONS.md` zu kopieren.

@@ -1,17 +1,17 @@
-Your last attack showed your competitor the error of their ways. They now realize why they were using `htmlElementEscape()` incorrectly.
+Dein letzter Angriff hat deinem Konkurrenten die Augen geöffnet. Sie erkennen jetzt, warum sie `htmlElementEscape()` falsch verwendet haben.
 
-Thanks to you, they have learned that the `htmlElementEscape()` function doesn't work for the values of HTML attributes. It doesn't escape the right set of characters for this context.
+Dank dir haben sie gelernt, dass die Funktion `htmlElementEscape()` nicht für die Werte von HTML-Attributen funktioniert. Sie entkommt nicht dem richtigen Zeichensatz für diesen Kontext.
 
-Your competitor's best engineers convene and emergency meeting to figure out what to do. They decide that the best way to resolve the issue is to replace double quote characters (`"`) with the corresponding HTML entity (`&quot;`) so it is not possible to "break out" of the attribute value section.
+Die besten Ingenieure deines Konkurrenten berufen eine Notfallsitzung ein, um herauszufinden, was zu tun ist. Sie entscheiden, dass der beste Weg, das Problem zu lösen, darin besteht, doppelte Anführungszeichen (`"`) durch das entsprechende HTML-Entity (`&quot;`) zu ersetzen, damit es nicht möglich ist, aus dem Attributwertbereich "auszubrechen".
 
-But, in their haste, they seem to have forgotten to think of all the cases... too bad for them. There's only one way that they'll learn. Show them! 😈
+Aber in ihrer Eile scheinen sie vergessen zu haben, an alle Fälle zu denken... Pech für sie. Es gibt nur einen Weg, wie sie es lernen werden. Zeig es ihnen! 😈
 
-## Goals
+## Ziele
 
-1. Find the XSS vulnerability in the search input field. You can use any HTML you want to run the `success()` function.
+1. Finde die XSS-Schwachstelle im Suchfeld. Du kannst beliebiges HTML verwenden, um die Funktion `success()` auszuführen.
 
-1. Write out the code that you believe the server must be executing to process the input.
+1. Schreibe den Code auf, von dem du glaubst, dass der Server ihn zur Verarbeitung der Eingabe ausführt.
 
 <iframe src='http://hackme.ifflaender-family.de:4110'></iframe>
 
-Before you move on to the next exercise, remember to copy your "attack input" as well as your server code into the `SOLUTIONS.md` file.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" sowie deinen Servercode in die Datei `SOLUTIONS.md` zu kopieren.
