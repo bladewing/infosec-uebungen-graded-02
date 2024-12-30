@@ -33,7 +33,7 @@ Starten Sie den Webserver.
 
 Variante 1 (eigener Rechner oder im Labor): Unter [http://127.0.0.1:4000/](http://127.0.0.1:4000/) finden Sie die Webseite mit der Aufgabenstellung.
 
-Variante 1 (remote zum Laborrechner): Unter [http://xxx.xxx.xxx.xxx:4000/](http://xxx.xxx.xxx.xxx:4000/) finden Sie die Webseite mit der Aufgabenstellung.
+Variante 1 (remote zum Laborrechner): Unter [http://xxx.xxx.xxx.xxx:4000/](http://xxx.xxx.xxx.xxx:4000/) finden Sie die Webseite mit der Aufgabenstellung. Ersetzen Sie xxx.xxx.xxx.xxx durch die IP-Adresse des Laborrechners.
 
 Variante 2: Unter [http://localhost:4000/](http://localhost:4000/) finden Sie die Webseite mit der Aufgabenstellung.
 
