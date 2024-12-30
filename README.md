@@ -7,7 +7,7 @@
 ## Vorbereitung
 
 - Auf Ihrem System muss NodeJS -- vorzugsweise in Version 18 -- installiert sein.
-- Variante 1: Nutzen Sie das Vagrant-File aus Übung 09.
+- Variante 1: Nutzen Sie das beiliegende Vagrant-File.
 - Variante 2: Folgen Sie den Anweisungen unter [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
 
 ## Aufgabenstellung
@@ -31,7 +31,9 @@ Starten Sie den Webserver.
 [assign1]$ npm start
 ```
 
-Variante 1: Unter [http://192.168.56.101:4000/](http://192.168.56.101:4000/) finden Sie die Webseite mit der Aufgabenstellung.
+Variante 1 (eigener Rechner oder im Labor): Unter [http://127.0.0.1:4000/](http://127.0.0.1:4000/) finden Sie die Webseite mit der Aufgabenstellung.
+
+Variante 1 (remote zum Laborrechner): Unter [http://xxx.xxx.xxx.xxx:4000/](http://xxx.xxx.xxx.xxx:4000/) finden Sie die Webseite mit der Aufgabenstellung.
 
 Variante 2: Unter [http://localhost:4000/](http://localhost:4000/) finden Sie die Webseite mit der Aufgabenstellung.
 
@@ -40,6 +42,10 @@ Arbeiten Sie sich durch die Aufgabenstellung und lösen Sie die Aufgaben. Geben 
 ## Abgabe
 
 Laden Sie die Datei `src/SOLUTION.md` in Opal hoch.
+
+## Bekannte Probleme
+
+Kommt es bei der Erstellung der Vagrant-VM zur Meldung, dass der Port 4000 bereits belegt ist, führt bereits jemand anders die Aufgabe auf dem Laborrechner aus. Ersetzen Sie ```host:4000``` in der Vagrantfile durch einen anderen Wert. Ändern Sie entsprechend auch den Port in Ihrem Browser (also z.B. statt [http://localhost:4000/](http://localhost:4000/) verwenden Sie [http://localhost:4001/](http://localhost:4000/))
 
 ## Danksagung
 
