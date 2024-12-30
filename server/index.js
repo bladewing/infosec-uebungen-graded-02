@@ -140,7 +140,7 @@ function init () {
       })
   })
 
-  app.listen(PORT, '127.0.0.1', () => {
+  app.listen(PORT, '0.0.0.0', () => {
     const url = `http://localhost:${PORT}`
     console.log(`Server running on ${url}`)
     if (argv.open) open(url)
