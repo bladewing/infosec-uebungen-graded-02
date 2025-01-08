@@ -18,7 +18,7 @@ Checken Sie die Aufgabenstellung aus dem Git-Repository aus.
 $ git clone https://github.com/bladewing/infosec-uebungen-graded-02.git graded02
 ```
 
-Wechseln Sie in das Verzeichnis `assign1` und installieren Sie die Abhängigkeiten.
+Wechseln Sie in das Verzeichnis `graded02` und installieren Sie die Abhängigkeiten.
 
 ```console
 $ cd graded02
