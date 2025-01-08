@@ -21,14 +21,14 @@ $ git clone https://github.com/bladewing/infosec-uebungen-graded-02.git graded02
 Wechseln Sie in das Verzeichnis `assign1` und installieren Sie die Abhängigkeiten.
 
 ```console
-$ cd assign1
-[assign1]$ npm install
+$ cd graded02
+[graded02]$ npm install
 ```
 
 Starten Sie den Webserver.
 
 ```console
-[assign1]$ npm start
+[graded02]$ npm start
 ```
 
 Variante 1 (eigener Rechner oder im Labor): Unter [http://127.0.0.1:4000/](http://127.0.0.1:4000/) finden Sie die Webseite mit der Aufgabenstellung.
