@@ -42,7 +42,7 @@ const trashConfig = promisify(cfg.trash.bind(cfg))
 const exercises = require(join(EXERCISES_PATH, 'exercises.json'))
 
 init()
-initExercises()
+//initExercises()
 
 function init () {
   const app = express()

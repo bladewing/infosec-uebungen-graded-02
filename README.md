@@ -41,11 +41,11 @@ Arbeiten Sie sich durch die Aufgabenstellung und lösen Sie die Aufgaben. Geben 
 
 ## Abgabe
 
-Laden Sie die Datei `src/SOLUTION.md` in Opal hoch.
+Geben Sie die Lösungen im OPAL-Kurs ab. Beachten Sie, dass es nach jeder Aufgaben-Abgabe ein paar Sekunden dauert, bis die Funktionalität Ihrer Lösung belegt wird.
 
 ## Bekannte Probleme
 
-Kommt es bei der Erstellung der Vagrant-VM zur Meldung, dass der Port 4000 bereits belegt ist, führt bereits jemand anders die Aufgabe auf dem Laborrechner aus. Ersetzen Sie ```host:4000``` in der Vagrantfile durch einen anderen Wert. Ändern Sie entsprechend auch den Port in Ihrem Browser (also z.B. statt [http://localhost:4000/](http://localhost:4000/) verwenden Sie [http://localhost:4001/](http://localhost:4000/))
+Kommt es bei der Erstellung der Vagrant-VM zur Meldung, dass der Port 4000 bereits belegt ist, führt bereits jemand anders die Aufgabe auf dem Laborrechner aus. Ersetzen Sie `host:4000` in der Vagrantfile durch einen anderen Wert. Ändern Sie entsprechend auch den Port in Ihrem Browser (also z.B. statt [http://localhost:4000/](http://localhost:4000/) verwenden Sie [http://localhost:4001/](http://localhost:4000/))
 
 ## Danksagung
 
