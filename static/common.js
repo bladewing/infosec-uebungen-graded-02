@@ -33,7 +33,7 @@ window.addEventListener('message', async e => {
   }
 
   try {
-    await window.fetch(`http://localhost:4000/success/${id}`, {
+    await window.fetch(`http://hackme.ifflaender-family.de:4000/success/${id}`, {
       method: 'POST',
       mode: 'no-cors',
       headers: {
