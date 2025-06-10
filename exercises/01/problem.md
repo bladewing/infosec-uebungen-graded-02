@@ -20,7 +20,7 @@ Wenn du wirklich böse wärst, könntest du diese URL in sozialen Medien teilen 
 
 Du solltest versuchen, diese URL zu kopieren und in einem neuen Tab zu öffnen und bestätigen, dass dein Angriffscode sofort ausgeführt wird, wenn die Seite geladen wird. Dies ist die Macht von Reflected XSS!
 
-Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" (die bösartige Eingabezeichenfolge, nicht die URL) in die Datei `SOLUTIONS.md` zu kopieren, damit du sie einreichen und Kredit erhalten kannst.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" (die bösartige Eingabezeichenfolge, nicht die URL) im Opal-Kurs abzugeben, damit du sie einreichen und Kredit erhalten kannst.
 
 ## Hinweis
 

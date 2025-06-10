@@ -3,19 +3,19 @@ Der Berater ist cleverer als du erwartet hast und hat die Server-Logs genau beob
 Du weißt jedoch, dass ihr Fix wahrscheinlich immer noch in irgendeiner Weise fehlerhaft ist. Du tauchst in den Code ein, um den Fehler zu finden, von dem du weißt, dass er existieren muss. 😆
 
 ```js
-router.get('/search', async (req, res) => {
-  let q = req.query.q
-  if (q == null) q = ''
+router.get("/search", async (req, res) => {
+  let q = req.query.q;
+  if (q == null) q = "";
 
-  let oldQ
+  let oldQ;
   while (q !== oldQ) {
-    oldQ = q
-    q = q.replace(/script|onerror=|onload=/gi, '')
+    oldQ = q;
+    q = q.replace(/script|onerror=|onload=/gi, "");
   }
 
-  const results = await getResults(q)
-  res.render('caloogle-search-page', { q, results })
-})
+  const results = await getResults(q);
+  res.render("caloogle-search-page", { q, results });
+});
 ```
 
 ## Ziel
@@ -24,4 +24,4 @@ Finde die XSS-Schwachstelle im Suchfeld. Du solltest **keinen** `<script>`-Tag i
 
 <iframe src='http://hackme.ifflaender-family.de:4070'></iframe>
 
-Bevor du zur nächsten Übung übergehst, denke daran, deinen "Angriffseingang" in die `SOLUTIONS.md`-Datei zu kopieren.
+Bevor du zur nächsten Übung übergehst, denke daran, deinen "Angriffseingang" im Opal-Kurs abzugeben.

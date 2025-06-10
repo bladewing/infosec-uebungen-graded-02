@@ -12,4 +12,4 @@ Finde die XSS-Schwachstelle im Suchfeld. Du kannst jedes HTML-Tag verwenden, um 
 
 **Hinweis**: Eventuell blockiert Firefox den Port 4160. In diesem Fall kannst du Chrome oder einen anderen Browser verwenden oder den Port 4160 in Firefox freigeben. Dazu musst du `about:config` in die Adressleiste eingeben und `network.security.ports.banned.override` auf `4160` setzen. Existierte die Einstellung nicht, musst du sie erstellen (als String).
 
-Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" in die `SOLUTIONS.md`-Datei zu kopieren.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" im Opal-Kurs abzugeben.

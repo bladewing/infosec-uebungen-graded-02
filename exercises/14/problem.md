@@ -20,4 +20,4 @@ Lektion gelernt: Selbst wenn ein Server niemals eine anfällige URL generieren u
 
 <iframe src='http://hackme.ifflaender-family.de:4140'></iframe>
 
-Bevor du zur nächsten Übung übergehst, denke daran, deine **Angriffs-URL** in die Datei `SOLUTIONS.md` zu kopieren.
+Bevor du zur nächsten Übung übergehst, denke daran, deine **Angriffs-URL** im Opal-Kurs abzugeben.

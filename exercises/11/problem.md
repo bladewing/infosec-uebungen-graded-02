@@ -14,4 +14,4 @@ Aber in ihrer Eile scheinen sie vergessen zu haben, an alle Fälle zu denken... 
 
 <iframe src='http://hackme.ifflaender-family.de:4110'></iframe>
 
-Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" sowie deinen Servercode in die Datei `SOLUTIONS.md` zu kopieren.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" sowie deinen Servercode im Opal-Kurs abzugeben.

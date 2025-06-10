@@ -4,12 +4,12 @@ Sie entscheiden sich auch dafür, die Suchanfrage des Benutzers zusammen mit der
 
 ```html
 <script>
-  let q = 'meine coole Suche'
+  let q = "meine coole Suche";
   window.sendAnalytics({
     q,
     screenWidth: window.screen && window.screen.width,
-    screenHeight: window.screen && window.screen.height
-  })
+    screenHeight: window.screen && window.screen.height,
+  });
 </script>
 ```
 
@@ -27,4 +27,4 @@ Möglicherweise musst du den HTML-Quellcode des `<iframe>` ansehen.
 
 <iframe src='http://hackme.ifflaender-family.de:4150'></iframe>
 
-Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" in die Datei `SOLUTIONS.md` zu kopieren.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" im Opal-Kurs abzugeben.

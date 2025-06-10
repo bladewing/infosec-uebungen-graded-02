@@ -9,24 +9,24 @@ Als du es dir ansiehst, bemerkst du, dass sie Kommentare serverseitig speichern,
 Dein Konkurrent verwendet ein Open-Source-Gästebuch-Paket, und du konntest durch etwas Nachforschung herausfinden, welches und welche Version. Du lädst den Code herunter, um zu sehen, womit du es zu tun hast:
 
 ```js
-router.get('/', async (req, res) => {
-  const comments = await getCommentsFromDatabase()
-  res.render('caloogle-guestbook-page', { comments })
-})
+router.get("/", async (req, res) => {
+  const comments = await getCommentsFromDatabase();
+  res.render("caloogle-guestbook-page", { comments });
+});
 
-router.post('/comment', async (req, res) => {
-  const comment = req.body
+router.post("/comment", async (req, res) => {
+  const comment = req.body;
 
-  if (comment == null) throw new Error('comment cannot be empty')
-  if (comment.text == null) throw new Error('comment.text cannot be empty')
+  if (comment == null) throw new Error("comment cannot be empty");
+  if (comment.text == null) throw new Error("comment.text cannot be empty");
 
   // if client specifies no id, then use the next id
-  if (comment.id == null) comment.id = await getNextAvailableIdFromDatabase()
+  if (comment.id == null) comment.id = await getNextAvailableIdFromDatabase();
 
-  await addCommentToDatabase(comment)
+  await addCommentToDatabase(comment);
 
-  res.send({ error: null, comment })
-})
+  res.send({ error: null, comment });
+});
 ```
 
 Wenn du einen Stored XSS-Angriff durchführen kannst, werden alle zukünftigen Besucher ihres Gästebuchs deinen Angriffscode ausführen! Im Gegensatz zu den Reflected XSS-Angriffen, die du bisher durchgeführt hast, erfordert dieser nicht, dass das Opfer deine speziell gestaltete Angriffs-URL besucht, um ausgenutzt zu werden. Das Opfer muss lediglich das Gästebuch besuchen, und dein Angriffscode wird ausgeführt.
@@ -49,4 +49,4 @@ Zeit, deinem Konkurrenten die Macht von Stored XSS zu zeigen!
 
 <iframe src='http://hackme.ifflaender-family.de:4170'></iframe>
 
-Bevor du zur nächsten Übung übergehst, denke daran, deinen "Angriffscode" in die Datei `SOLUTIONS.md` zu kopieren.
+Bevor du zur nächsten Übung übergehst, denke daran, deinen "Angriffscode" im Opal-Kurs abzugeben.

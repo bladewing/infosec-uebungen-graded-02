@@ -14,4 +14,4 @@ Schließlich war dein persönliches Motto schon immer "Kein Risiko, kein Rari!"
 
 <iframe src='http://hackme.ifflaender-family.de:4120'></iframe>
 
-Bevor du zur nächsten Übung übergehst, denke daran, dein "Angriffseingabe" sowie deinen Servercode in die `SOLUTIONS.md`-Datei zu kopieren.
+Bevor du zur nächsten Übung übergehst, denke daran, dein "Angriffseingabe" sowie deinen Servercode im Opal-Kurs abzugeben.

@@ -7,15 +7,15 @@ Die Funktion heißt "Konkurrentenvergleich" und enthält Links zu Suchmaschinen 
 Sie scheinen die narrensichere `htmlElementEscape()`-Funktion zu verwenden, die von einem HTWD-Studenten für sie geschrieben wurde, um das HTML für diese Links zu generieren, sodass du denkst, dass sie garantiert sicher sind:
 
 ```js
-router.get('/search', async (req, res) => {
-  let q = req.query.q
-  if (q == null) q = ''
+router.get("/search", async (req, res) => {
+  let q = req.query.q;
+  if (q == null) q = "";
 
-  q = htmlElementEscape(q)
+  q = htmlElementEscape(q);
 
-  const results = await getResults(q)
-  res.render('caloogle-search-page', { q, results })
-})
+  const results = await getResults(q);
+  res.render("caloogle-search-page", { q, results });
+});
 ```
 
 Aber bei näherer Betrachtung scheint es, dass sie die Funktion nicht richtig verwenden. Zeit, ihnen eine weitere Lektion zu erteilen!
@@ -30,4 +30,4 @@ Versuche, verschiedene Eingaben zu übermitteln und dann den HTML-Quellcode des 
 
 <iframe src='http://hackme.ifflaender-family.de:4100'></iframe>
 
-Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" in die `SOLUTIONS.md`-Datei zu kopieren.
+Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" im Opal-Kurs abzugeben.
