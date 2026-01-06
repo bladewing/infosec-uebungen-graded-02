@@ -8,7 +8,7 @@ Aber du weißt, dass ihre schwachen Verteidigungen keine Chance gegen deine Fäh
 
 Finde die XSS-Schwachstelle im Suchfeld. Du kannst jedes HTML-Tag verwenden, um die `success()`-Funktion auszuführen.
 
-<iframe src='http://hackme.ifflaender-family.de:4160'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/16/'></iframe>
 
 **Hinweis**: Eventuell blockiert Firefox den Port 4160. In diesem Fall kannst du Chrome oder einen anderen Browser verwenden oder den Port 4160 in Firefox freigeben. Dazu musst du `about:config` in die Adressleiste eingeben und `network.security.ports.banned.override` auf `4160` setzen. Existierte die Einstellung nicht, musst du sie erstellen (als String).
 

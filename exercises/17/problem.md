@@ -47,6 +47,6 @@ Zeit, deinem Konkurrenten die Macht von Stored XSS zu zeigen!
 
 - Es ist in Ordnung, wenn dein Angriffscode nicht sofort beim Laden der Seite ausgeführt wird. Es ist akzeptabel, wenn er später als Reaktion auf die Interaktion des Benutzers mit der Seite ausgeführt wird.
 
-<iframe src='http://hackme.ifflaender-family.de:4170'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/17/'></iframe>
 
 Bevor du zur nächsten Übung übergehst, denke daran, deinen "Angriffscode" im Opal-Kurs abzugeben.

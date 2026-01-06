@@ -12,7 +12,7 @@ Du entscheidest dich, ihre Website zu überprüfen und nach einer Reflected XSS-
 
 Finde einen Weg, ein `<script>`-Tag in die Website deines Konkurrenten einzufügen. Sobald du einen Weg gefunden hast, Code auf ihrer Website auszuführen, solltest du die `success()`-Funktion aufrufen. Wenn du es richtig gemacht hast, solltest du eine Browser-Benachrichtigung sehen, die dir sagt, dass du erfolgreich warst.
 
-<iframe src='http://hackme.ifflaender-family.de:4010'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/01/'></iframe>
 
 Da dies ein Reflected XSS-Angriff ist, beachte, dass die URL der Opferseite eine URL-codierte Version deiner "Angriffseingabe" enthält.
 

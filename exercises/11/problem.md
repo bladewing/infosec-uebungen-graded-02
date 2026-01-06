@@ -12,6 +12,6 @@ Aber in ihrer Eile scheinen sie vergessen zu haben, an alle Fälle zu denken... 
 
 1. Schreibe den Code auf, von dem du glaubst, dass der Server ihn zur Verarbeitung der Eingabe ausführt.
 
-<iframe src='http://hackme.ifflaender-family.de:4110'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/11/'></iframe>
 
 Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" sowie deinen Servercode im Opal-Kurs abzugeben.

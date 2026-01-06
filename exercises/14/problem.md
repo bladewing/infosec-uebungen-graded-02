@@ -18,6 +18,6 @@ Wenn du eine Lösung gefunden hast, die funktioniert, solltest du in der Lage se
 
 Lektion gelernt: Selbst wenn ein Server niemals eine anfällige URL generieren und in das HTML einfügen würde, ist das keine Garantie dafür, dass ein Angreifer diese anfällige URL nicht findet und Benutzer irgendwie dazu bringt, sie zu besuchen.
 
-<iframe src='http://hackme.ifflaender-family.de:4140'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/14/'></iframe>
 
 Bevor du zur nächsten Übung übergehst, denke daran, deine **Angriffs-URL** im Opal-Kurs abzugeben.

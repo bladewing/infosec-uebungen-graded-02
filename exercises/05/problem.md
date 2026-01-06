@@ -20,7 +20,7 @@ router.get("/search", async (req, res) => {
 
 Kannst du dir eine Möglichkeit überlegen, ihren verbesserten Säuberungscode zu umgehen und dein `<script>`-Tag über das Suchfeld in die Seite einzufügen?
 
-<iframe src='http://hackme.ifflaender-family.de:4050'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/05/'></iframe>
 
 Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" im Opal-Kurs abzugeben.
 

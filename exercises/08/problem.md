@@ -18,6 +18,6 @@ router.get("/search", async (req, res) => {
 
 Versuche verschiedene Eingaben zu übermitteln und sieh dir dann den HTML-Quellcode des `<iframe>` an, um herauszufinden, was der Bereinigungscode tun muss.
 
-<iframe src='http://hackme.ifflaender-family.de:4080'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/08/'></iframe>
 
 Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" sowie deinen Servercode im Opal-Kurs abzugeben.

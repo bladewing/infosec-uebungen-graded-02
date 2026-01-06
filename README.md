@@ -31,11 +31,11 @@ Starten Sie den Webserver.
 [graded02]$ npm start
 ```
 
-Variante 1 (eigener Rechner oder im Labor): Unter [http://127.0.0.1:4000/](http://127.0.0.1:4000/) finden Sie die Webseite mit der Aufgabenstellung.
+**Variante 1 (lokal):** Unter [http://127.0.0.1:4000/](http://127.0.0.1:4000/) bzw. [http://localhost:4000/](http://localhost:4000/) finden Sie die Webseite mit der Aufgabenstellung.
 
-Variante 1 (remote zum Laborrechner): Unter [http://xxx.xxx.xxx.xxx:4000/](http://xxx.xxx.xxx.xxx:4000/) finden Sie die Webseite mit der Aufgabenstellung. Ersetzen Sie xxx.xxx.xxx.xxx durch die IP-Adresse des Laborrechners.
+**Variante 2 (remote zum Laborrechner):** Unter [http://xxx.xxx.xxx.xxx:4000/](http://xxx.xxx.xxx.xxx:4000/) finden Sie die Webseite mit der Aufgabenstellung. Ersetzen Sie xxx.xxx.xxx.xxx durch die IP-Adresse des Laborrechners.
 
-Variante 2: Unter [http://localhost:4000/](http://localhost:4000/) finden Sie die Webseite mit der Aufgabenstellung.
+**Variante 3 (gehostete Version):** Die Übung ist auch unter [https://hackme.security-prof.de/](https://hackme.security-prof.de/) verfügbar. Diese Version läuft über HTTPS und erfordert keine lokale Installation.
 
 Arbeiten Sie sich durch die Aufgabenstellung und lösen Sie die Aufgaben. Geben Sie Ihre Antworten in der Datei `src/SOLUTION.md` an.
 

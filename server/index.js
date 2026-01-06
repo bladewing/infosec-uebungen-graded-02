@@ -104,7 +104,7 @@ function init () {
   const corsOpts = {
     origin: function (origin, cb) {
       const url = new URL(origin)
-      if (url.hostname === 'localhost' || url.hostname === 'caloogle.xyz' || url.hostname === 'hackme.ifflaender-family.de') {
+      if (url.hostname === 'localhost' || url.hostname === 'caloogle.xyz' || url.hostname === 'hackme.ifflaender-family.de' || url.hostname === 'hackme.security-prof.de') {
         cb(null, true)
       } else {
         cb(new Error('Not allowed by CORS'))
@@ -141,7 +141,7 @@ function init () {
   })
 
   app.listen(PORT, '0.0.0.0', () => {
-    const url = `http://hackme.ifflaender-family.de:${PORT}`
+    const url = `https://hackme.security-prof.de`
     console.log(`Server running on ${url}`)
     if (argv.open) open(url)
   })

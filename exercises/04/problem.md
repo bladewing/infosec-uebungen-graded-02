@@ -22,7 +22,7 @@ router.get("/search", async (req, res) => {
 
 Kannst du dir eine Möglichkeit überlegen, ihren verbesserten Bereinigungscode zu umgehen und dein `<script>`-Tag über das Suchfeld in die Seite einzufügen?
 
-<iframe src='http://hackme.ifflaender-family.de:4040'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/04/'></iframe>
 
 Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" (die bösartige Eingabezeichenfolge, nicht die URL) im Opal-Kurs abzugeben.
 

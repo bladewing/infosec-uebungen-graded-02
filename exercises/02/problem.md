@@ -20,7 +20,7 @@ router.get("/search", async (req, res) => {
 
 Du solltest in der Lage sein, eine kleine Änderung an deinem "Angriffs-Input" aus der letzten Übung vorzunehmen, und dein Reflected XSS-Angriff sollte weiterhin gegen ihre Benutzer funktionieren. Entfessle mehr `<script>`-Schaden!
 
-<iframe src='http://hackme.ifflaender-family.de:4020'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/02/'></iframe>
 
 Bevor du zur nächsten Übung übergehst, denke daran, deinen "Angriffs-Input" (die bösartige Eingabezeichenfolge, nicht die URL) im Opal-Kurs abzugeben.
 

@@ -25,6 +25,6 @@ Finde die XSS-Schwachstelle im Suchfeld. Du kannst jedes HTML-Tag verwenden, um 
 
 Möglicherweise musst du den HTML-Quellcode des `<iframe>` ansehen.
 
-<iframe src='http://hackme.ifflaender-family.de:4150'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/15/'></iframe>
 
 Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" im Opal-Kurs abzugeben.

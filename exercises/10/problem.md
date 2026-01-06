@@ -28,6 +28,6 @@ Finde die XSS-Schwachstelle im Suchfeld. Du kannst beliebiges HTML verwenden, um
 
 Versuche, verschiedene Eingaben zu übermitteln und dann den HTML-Quellcode des `<iframe>` zu betrachten, um herauszufinden, wie die "bereinigte" Benutzereingabe mit dem Kontext des HTML-Quellcodes interagiert.
 
-<iframe src='http://hackme.ifflaender-family.de:4100'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/10/'></iframe>
 
 Bevor du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" im Opal-Kurs abzugeben.

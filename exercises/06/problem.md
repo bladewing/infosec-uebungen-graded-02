@@ -22,6 +22,6 @@ router.get("/search", async (req, res) => {
 
 Finde die XSS-Schwachstelle im Suchfeld. Verwende **keinen** `<script>`-Tag in diesem Angriff.
 
-<iframe src='http://hackme.ifflaender-family.de:4060'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/06/'></iframe>
 
 Bevor Du zur nächsten Übung übergehst, denke daran, deine "Angriffseingabe" im Opal-Kurs abzugeben.

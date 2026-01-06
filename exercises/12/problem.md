@@ -12,6 +12,6 @@ Schließlich war dein persönliches Motto schon immer "Kein Risiko, kein Rari!"
 
 1. Schreibe den Code auf, von dem du glaubst, dass der Server ihn zur Verarbeitung der Eingabe ausführt.
 
-<iframe src='http://hackme.ifflaender-family.de:4120'></iframe>
+<iframe src='https://hackme.security-prof.de/ex/12/'></iframe>
 
 Bevor du zur nächsten Übung übergehst, denke daran, dein "Angriffseingabe" sowie deinen Servercode im Opal-Kurs abzugeben.
